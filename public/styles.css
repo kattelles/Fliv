@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ebebeb;
+  color: #a9a184;
+  font-weight: 200;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.album-outer {
+  width: 30%;
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
+}
+
+.album-header {
+  margin-bottom: 10px;
+}
+
+.search-outer {
+  width: 70%;
+  margin: 30px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.search-photos {
+}
+
+.input {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 200;
+  width: 300px;
+  margin-right: 5px;
+  color: #a9a184;
+  border: 1px solid #a9a184;
+}
+
+.input:focus {
+  outline:none;
+}
+
+.button {
+  color: white;
+  background-color: #a9a184;
+  border: 1px solid #a9a184;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 5px;
+  width: 75px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.modal .button {
+  margin: 5px;
+}
+
+.modal-inner {
+  text-align: center;
+  position: relative;
+  transform: translateY(100%);
+}
+
+.modal {
+  border: 5px solid #a9a184;
+  font-size: 20px;
+  font-weight: 200;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  outline: none;
+  position: relative;
+  top: 50%;
+  color: #a9a184;
+  transform: translateY(-50%);
+}
+
+::-webkit-input-placeholder {
+   color: #a9a184;
+}
